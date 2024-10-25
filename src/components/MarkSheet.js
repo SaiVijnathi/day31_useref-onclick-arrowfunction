@@ -65,8 +65,8 @@ function MarkSheet(props) {
 
                 let percent= (totalMarks/450)*100;
 
-                alert(`${firstName} ${lastName}, total marks are ${totalMarks} and percentage is ${percent}%`);
-                resultLabelRef.current.innerHTML= `${firstName} ${lastName} total Marks are ${totalMarks} and percentage is ${percent.toFixed(2)}%`;
+                alert(`${firstName} ${lastName}, Your total marks are ${totalMarks} and percentage is ${percent}%`);
+                resultLabelRef.current.innerHTML= `${firstName} ${lastName}, Your total Marks are ${totalMarks} and percentage is ${percent.toFixed(2)}%`;
                 
             }} >Calculate Result</button>
         </div>
