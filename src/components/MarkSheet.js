@@ -32,19 +32,19 @@ function MarkSheet(props) {
             <input type="number" ref={engInputRef}></input>
         </div>
         <div>
-            <label>Math A</label>
+            <label>Math-{props.subject}A</label>
             <input type="number" ref={mataInputRef}></input>
         </div>
         <div>
-            <label>Math B</label>
+            <label>Math-{props.subject}B</label>
             <input type="number" ref={matbInputRef}></input>
         </div>
         <div>
-            <label>Physics</label>
+            <label>Physics-{props.subject}</label>
             <input type="number" ref={phyInputRef}></input>
         </div>
         <div>
-            <label>Chemistry</label>
+            <label>Chemistry-{props.subject}</label>
             <input type="number" ref={cheInputRef}></input>
         </div>
 
